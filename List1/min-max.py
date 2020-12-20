@@ -1,8 +1,8 @@
-for t in range(int(input())):
-    n=int(input())
+for T in range(int(input())):
+    N=int(input())
     
-    lst=list(map(int,input().split()))
-    result = max(lst)- min(lst)
-    print("#{} {}".format(t+1,result))
+    n=list(map(int,input().split()))
+    result = max(n)- min(n)
+    print("#{} {}".format(T+1,result))
 
 

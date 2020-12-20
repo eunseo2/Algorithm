@@ -21,12 +21,13 @@ print(f)                                문자열 1개 출력하는 예제
 
 
 # 리스트에 map 사용하기
-  >> a = map(int, input().split()) 
+```
+  >>> a = map(int, input().split()) 
   10 20 (입력)
-  >> a
+  >>> a
   <map object at 0x03DFB0D0>
-  >> list(a)
+  >>> list(a)
   [10, 20]
 
-
+```
 문제 출처: SW Expert Academy

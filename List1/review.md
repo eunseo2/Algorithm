@@ -30,4 +30,15 @@ print(f)                                문자열 1개 출력하는 예제
   [10, 20]
 
 ```
-문제 출처: SW Expert Academy
+
+# 정렬
+```
+a=['a','b']
+원본 변경 x  new_list = sorted(a)
+내림차순 new_list = sorted(a, reverse=True)
+오름차순 new_list = sorted(a, reverse=False)
+원본도 변경 a.sort()
+내림차순 a.sort(reverse= True)
+
+```
+

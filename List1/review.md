@@ -1,5 +1,6 @@
 # 표준 입력 예제
 ```
+a=input()                               줄바꿈 전까지 문자열로 입력 받음
 a = int(input())                        정수형 변수 1개 입력 받는 예제
 b, c = map(int, input().split())        정수형 변수 2개 입력 받는 예제 
 d = float(input())                      실수형 변수 1개 입력 받는 예제
@@ -41,4 +42,7 @@ a=['a','b']
 내림차순 a.sort(reverse= True)
 
 ```
+
+# count함수
+a.count하면 그 문자열,리스트에 몇개 있는지 알려줌...!!!!! 대박 !!!
 

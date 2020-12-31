@@ -7,3 +7,10 @@
 여기서 소수란, 약수가 1과 자기자신밖에 존재하지 않는 수를 말한다.
 예제 입력: 13 30
 ```
+# List 역으로 출력
+1. lst.reverse()
+     print(lst)  -----  원본도 바뀜
+2. for i in lst[::-1] :
+     print(i)
+3. for i in reversed(lst):
+     print(i,end=" ")

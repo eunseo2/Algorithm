@@ -15,3 +15,7 @@
      print(i)
 3. for i in reversed(lst):
      print(i,end=" ")
+
+# List 여러줄 입력 받기
+---------------------------------------------------------------------------------
+N = list(int(input()) for _ in range(9))

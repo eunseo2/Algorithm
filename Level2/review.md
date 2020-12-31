@@ -33,7 +33,7 @@ N = list(int(input()) for _ in range(9))
 ```
 ###  문제-3 점수계산
 ---------------------------------------------------------------------------------
-<img width="800" alt="card" src="https://user-images.githubusercontent.com/70589857/103401846-f2bee200-4b8d-11eb-93a9-7da9b554e77a.PNG">
+<img width="500" alt="card" src="https://user-images.githubusercontent.com/70589857/103401846-f2bee200-4b8d-11eb-93a9-7da9b554e77a.PNG">
 
 ```
 문제가 길어도 코드 짧음!! 겁먹지 말자!!!

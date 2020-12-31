@@ -41,4 +41,6 @@ N = list(int(input()) for _ in range(9))
 
 ### 문제-5 숫자 피라미드 
 <img width="500" alt="number" src="https://user-images.githubusercontent.com/70589857/103408150-ac28b200-4ba4-11eb-83c5-a9872ee0f87c.PNG">
+i)홀수 행은 감소, 짝수 행은 증가
+ii)각 줄의 첫번째 숫자가 무엇인가? 
 

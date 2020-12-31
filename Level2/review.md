@@ -39,5 +39,5 @@ N = list(int(input()) for _ in range(9))
 문제가 길어도 코드 짧음!! 겁먹지 말자!!!
 ```
 ### 문제-4 카드게임
-<img width="800" alt="card" src="https://user-images.githubusercontent.com/70589857/103401743-7d531180-4b8d-11eb-973b-aa7b3bd330e2.PNG">
+<img width="500" alt="card" src="https://user-images.githubusercontent.com/70589857/103401743-7d531180-4b8d-11eb-973b-aa7b3bd330e2.PNG">
 

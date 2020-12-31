@@ -47,3 +47,6 @@ OX 문제는 맞거나 틀린 두 경우의 답을 가지는 문제를 말한다
 
 문제가 길어도 코드 짧음!! 겁먹지 말자!!!
 ```
+### 문제-4 카드게임
+<img width="600" alt="card" src="https://user-images.githubusercontent.com/70589857/103401743-7d531180-4b8d-11eb-973b-aa7b3bd330e2.PNG">
+

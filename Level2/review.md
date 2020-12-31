@@ -1,6 +1,4 @@
-# 소수 판별2
-
-### 문제-1
+### 문제-1  소수 판별
 -------------------------------------------------------------------------------
 ```
 자연수n,m이 주어질 때, n부터m까지 존재하는 소수를 모두 출력하는 프로그램을 작성하여라. 
@@ -40,6 +38,7 @@ N = list(int(input()) for _ in range(9))
 ```
 ### 문제-4 카드게임
 <img width="500" alt="card" src="https://user-images.githubusercontent.com/70589857/103401743-7d531180-4b8d-11eb-973b-aa7b3bd330e2.PNG">
+
 ### 문제-5 숫자 피라미드 
 <img width="500" alt="number" src="https://user-images.githubusercontent.com/70589857/103408150-ac28b200-4ba4-11eb-83c5-a9872ee0f87c.PNG">
 

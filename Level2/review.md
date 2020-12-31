@@ -40,4 +40,6 @@ N = list(int(input()) for _ in range(9))
 ```
 ### 문제-4 카드게임
 <img width="500" alt="card" src="https://user-images.githubusercontent.com/70589857/103401743-7d531180-4b8d-11eb-973b-aa7b3bd330e2.PNG">
+### 문제-5 숫자 피라미드 
+<img width="500" alt="number" src="https://user-images.githubusercontent.com/70589857/103408150-ac28b200-4ba4-11eb-83c5-a9872ee0f87c.PNG">
 

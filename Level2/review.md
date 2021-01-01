@@ -44,7 +44,7 @@ N = list(int(input()) for _ in range(9))
 i)홀수 행은 감소, 짝수 행은 증가
 ii)각 줄의 첫번째 숫자가 무엇인가? 
 
-### 문제-5 Array3
+### 문제-6 Array3
 <img width="500" alt="array3" src="https://user-images.githubusercontent.com/70589857/103433391-944c3f00-4c33-11eb-84df-8cca56a9f5b7.PNG">
 
  ```

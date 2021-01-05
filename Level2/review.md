@@ -63,5 +63,5 @@ for(i=0; i<n; i++){
  # 2차원 배열 
  arr = [[0]*M for _ in range(N) ]  -> 초기화 하는 법 
  
- a= [[int(x) for x in input().split()]   for _ in range(N)] -> 입력값으로 배열 생성하는 법 
+a=[list(map(int, input().split())) for _ in range(N)] -> 입력값으로 배열 생성하는 법 
 

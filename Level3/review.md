@@ -6,5 +6,8 @@
 -----------------------------------------------------
 <img width="500" src="https://user-images.githubusercontent.com/70589857/103610145-c2e35600-4f62-11eb-910c-59f3fd079be3.PNG">
  b[i][j] = a[i][M-j-1] point! 이 코드가 좌우를 바꿔줌
+ 
  -----------------------------------------------------
+ <img width="500" src="https://user-images.githubusercontent.com/70589857/103618662-ae5b8980-4f73-11eb-8deb-9675d105f9b0.PNG">
+새로운 2차원 배열 만들고 거기에 입력값 받아서 1,1~5,5에 값 복사하기! 
  

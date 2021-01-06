@@ -25,3 +25,10 @@ while(1) {
 }
 int GCD= b
 ``` 
+--------------------------------------------------------
+# rook
+ry,rx=3
+for(i=rx+1; i<=8; i++)
+if(arr[ry][i]== king)
+else if(arr[ry][i]== 장애물)
+break;

@@ -27,4 +27,20 @@
 * O(n) n=1억 -> 1초
 * O(n^2) n=1만 -> 1초  ex n=10만이면 제한시간 넘는다. n이 10만일때 n^2으로 짜면 안된다!
 
-
+# 기초정수론
+* 정수론
+  - 정수의 성질을 연구하는 분야
+  - 약수와 배수
+* 소수(prime number)
+  - 약수가 1과 자기 자신뿐인 정수
+  - bool flag = false 이용
+  
+```
+for i in range(2,N)
+  if n%i ==0 :
+    flag=true
+  if flag==true:
+    print('소수 아님')
+  else:
+    print('소수')
+```

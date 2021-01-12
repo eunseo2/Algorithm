@@ -48,6 +48,26 @@ for i in range(2,N)
   - 소수를 구하는 방법 중 하나
   - O(nlogn)
   - 1~N 까지 모든 소수를 구할 때 쓰는 
+```
+n = 123456*2+1
+prime = [1]*(n)
+prime[0] = 0
+prime[1] = 0
+for i in range(2, n):
+  if prime[i]==1:
+    for j in range(i*2, n, i):
+      prime[j] = 0
+while 1:
+  x = int(input())
+  if x == 0:
+    break
+  cnt = 0
+  for i in range(x+1, x*2+1):
+    if prime[i] == 1:
+      cnt+=1
+ 
+  print(cnt)
+```
 
 ### 소인수분해(Prime factorization)
   * 숫자 N을 소수의 곱으로 나타냄.

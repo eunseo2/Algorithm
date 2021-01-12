@@ -20,7 +20,7 @@ def check():
   if cnt_l == 5: cnt+=1 
   if cnt_r == 5 : cnt+=1 
   
-  if cnt==3: return True
+  if cnt>=3: return True
   return False
 
 

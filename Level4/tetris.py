@@ -18,11 +18,23 @@ m= [list(map(int,input().split())) for _ in range (M)]
 max1=0
 max_i=0
 sum2=0
+flag=False
 
 for i in range(M-1,-1,-1):
   for j in range(N-1,-1,-1):
+
     if i >= 3 : 
-      if m[i][j]==0 and m[i-1][j]==0 and m[i-2][j]==0 and m[i-3][j]==0:
+      
+      flag=False
+      
+      for k in range(i,-1,-1):
+        if m[k][j]!=0:
+  
+          flag=True
+          
+          
+      if flag== False:
+  
         k1=j
         k2=i
         m[i][j]=1
@@ -40,7 +52,10 @@ for i in range(M-1,-1,-1):
         m[i-1][j]=0
         m[i-2][j]=0
         m[i-3][j]=0
-
+        
 
 
 print(max_i,max1)
+
+
+  

@@ -97,5 +97,23 @@ for(int i=2; n>1;){
   - 파스칼의 삼각형은 조합이랑 동일함.
   - 20C12 = xxxxxxx123 끝에 몇자리를 알려달라고 문제에서 나왔을 때 나눗셈 없이 파스칼의 삼각형으로 구할 수 있음
   - 20C11 = 20!/11!9!
-# 벌집문제
+# 벌집문제 -beehive
 - 1(+6) 7 (+12) 19 (+18) 37 (+24) 61 
+
+# streetree
+- 가로수의 간격들의 최대 공약수를 구하는 것이 핵심!
+```
+def GCDofTwoNumbers(a,b):
+  while b !=0:
+    a,b=b,a%b 
+  return a 
+
+GCDarr = arr[0]
+for i in range(len(arr)):
+  GCDarr=GCDofTwoNumbers(GCDarr,arr[i])
+
+print(GCDarr)
+
+```
+
+

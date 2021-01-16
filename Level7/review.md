@@ -36,3 +36,24 @@ int main(){
 2) 기저조건(Base condition)에서 함수가 제대로 동작함을 보인다. 0!=1
 3) 함수가 (작은 input에 대하여) 제대로 동작한다고 가정하고 함수를 완성한다.
 
+```
+N to M
+int getSum(int n, int m){
+  if(n==m) -> 기저조건
+    return n;
+  else
+    return getSum(n,m-1)+m;
+}
+```
+
+```
+각 자릿수의 합을 반환하는 함수
+int getDigitSum(int x){
+  if(0 <= x && x<=0){ -> x가 한자리일때 기저조건 x=x
+    return x;
+  }
+  else {
+    return getDigitSum(x/10)+(x%10);
+  }
+}
+```

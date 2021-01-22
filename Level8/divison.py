@@ -2,9 +2,9 @@
 result=[]
 
 cnt=0
-def divison(x,d):
+def divison(mySum,index):
  
-  if x>= n:
+  if mySum>= n:
     global cnt
     cnt+=1
     print(result[0],end='')
@@ -14,18 +14,18 @@ def divison(x,d):
    
   else:
     num=0
-    if x==0:
+    if index==0:
       num=n-1
       
     else:
-      num=n-x
+      num=n-mySum
      
     for i in range(num,0,-1):
       result.append(i)
-      if d>0 and result[d-1]<result[d]:
+      if index>0 and result[index-1]<result[index]:
         result.pop()
         continue
-      divison(x+i,d+1)
+      divison(mySum+i,index+1)
       result.pop()
       
     

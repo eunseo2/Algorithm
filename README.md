@@ -1,4 +1,5 @@
-# algorithm
+# algorithm 
+-출처 알고리즘랩스
 
 ## git사용법
 - cd github (폴더 이용)

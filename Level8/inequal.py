@@ -3,15 +3,18 @@ signs = input().split()
 result=[0]*10
 check=[0]*10
 a=False
+b=False
 
 def getMax(x):
   global a
   if a==True:
     return
+  
   if x> n :
     for j in range(n+1):
       print(result[j],end='')
       a=True
+  
    
  
   else:
@@ -42,13 +45,14 @@ def getMax(x):
  
           
 def getMin(x):
-  global a
-  if a==True:
+  global b
+  if b==True:
     return
+  
   if x> n :
     for j in range(n+1):
       print(result[j],end='')
-      a=True
+      b=True
    
  
   else:
@@ -76,7 +80,8 @@ def getMin(x):
           check[i]=1
           getMin(x+1)
           check[i]=0
-  
+
 
 getMax(0)
+print()
 getMin(0)

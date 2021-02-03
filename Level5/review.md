@@ -14,7 +14,13 @@
 ### 버블정렬
 - 인접한 원소를 비교하여 큰 수를 뒤로 보냄 
 - o(n^2)
-
+```
+def BubbleSort(a):
+  for i in range(len(a)-1,0,-1):
+    for j in range(0,i):
+      if a[j]>a[j+1]:
+        a[j],a[j+1]=a[j+1],a[j]
+```
 
 # 시간복잡도
 * 프로그램이 대략적으로 몇 개의 명령을 수행하는가?

@@ -14,10 +14,10 @@
 - git push origin main
 
 
-git add .
-git commit -m " "
-git branch -M main
-git remote add origin https~
-git push origin main
+-git add .
+-git commit -m " "
+-git branch -M main
+-git remote add origin https~
+-git push origin main
 
 

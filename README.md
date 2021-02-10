@@ -14,10 +14,10 @@
 - git push origin main
 
 
--git add .
--git commit -m " "
--git branch -M main
--git remote add origin https~
--git push origin main
-
+- git add .
+- git commit -m " "
+- git branch -M main
+- git remote add origin https~
+- git push origin main
+- 원격 저장소를 누가 수정하면 git pull (원격 저장소에서 데이터 가져오기)
 
